@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A flutter based application for monitoring and forecasting Urban Head Islands in cities.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="uhi_monitoring">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>uhi_monitoring</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Firebase App (the core Firebase SDK) -->
+  <script src="https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js"></script>
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/9.8.2/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDYqPV7TNUiOKI5R1ejqQ4ZiwNw1qSF7kU",
+      authDomain: "general-firebase-affd9.firebaseapp.com",
+      projectId: "general-firebase-affd9",
+      storageBucket: "general-firebase-affd9.appspot.com",
+      messagingSenderId: "474047722611",
+      appId: "1:474047722611:web:ff651d61db213c5839e606"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+</head>
+<body>
+<!-- Google Maps JavaScript API -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYqPV7TNUiOKI5R1ejqQ4ZiwNw1qSF7kU"></script>
+
+<script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

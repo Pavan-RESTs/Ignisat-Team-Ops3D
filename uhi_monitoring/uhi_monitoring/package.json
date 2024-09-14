@@ -1,0 +1,15 @@
+{
+  "name": "uhi_monitoring",
+  "version": "1.0.0",
+  "description": "A flutter based application for monitoring and forecasting Urban Head Islands in ciites.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
