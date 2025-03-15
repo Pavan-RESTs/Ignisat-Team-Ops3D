@@ -17,7 +17,7 @@
 
 **Ignisat** is a cutting-edge **1U CubeSat** integrating IoT sensors and camera modules to monitor UHI phenomena from an aerial perspective. The satellite collects multi-modal data, which is processed using AI-based models to derive actionable insights. The system is complemented by a ground station software capable of real-time data visualization, analysis, and predictive modeling.
 
-![Ignisat](https://i.ibb.co/5MCBBJc/payload-Image1.jpg)
+![Ignisat](https://drive.google.com/file/d/1qMd-VzCgGDa1v2BWJU8MwlpYChygM6qN/view?usp=sharing)
 
 ### Satellite Configurations
 
@@ -45,31 +45,31 @@ The Ignisat ground station software/web application, built using **Flutter**, se
 2. **UHI Index Prediction**:  
    - Utilizes a trained **Random Forest Regressor** to calculate the **UHI Index** with an accuracy of **87%**, achieved using the Puducherry dataset and optimized through **Grid Search CV**.
 
-   ![UHI Index Prediction](https://i.ibb.co/KKDF52D/Screenshot-2024-11-29-185044.png)
+   ![UHI Index Prediction](https://drive.google.com/file/d/1vc5seAS-vYATu64ZvZYW6yZpXPrJC1x1/view?usp=sharing)
 
 3. **Mitigation Strategies**:  
    - Leverages **Google Gemini** to infer mitigation strategies based on real-time environmental data.
 
-   ![Mitigation Strategies](https://i.ibb.co/ZJTWCSf/Screenshot-2024-11-29-185057.png)
+   ![Mitigation Strategies](https://drive.google.com/file/d/1H2cgpx9f2Knxen4vB--kgBUOR4Jv4XRs/view?usp=sharing)
 
 4. **Heatmap Visualization**:  
    - Generates heatmaps of urban areas using **Google Maps API**, offering insights into temperature variations.
 
-   ![Heatmap](https://i.ibb.co/yBgBBkf/Screenshot-2024-11-29-185020.png)
+   ![Heatmap](https://drive.google.com/file/d/1pOXZimpzvRvP7GSJuoxLuoI1mrfbmIWw/view?usp=sharing)
 
 5. **Data Analysis and Visualization**:  
    - Provides a live, asynchronously updating line graph to visualize historical and real-time data trends.
 
-   ![Data Visualization](https://i.ibb.co/yXkpd2Z/Screenshot-2024-11-29-185729.png)
+   ![Data Visualization](https://drive.google.com/file/d/1H8mEzzaQsISZH4_RQir58_hHGLmBCuI5/view?usp=sharing)
 
 6. **Alert Mechanism**:  
    - Implements a cloud-based notification system using **Firebase** to alert local NSS authorities when UHI levels cross critical thresholds.
 
-   ![Notification](https://i.ibb.co/HTLvmcd/Screenshot-2024-11-29-192758.png)
+   ![Notification](https://drive.google.com/file/d/1aeXaBelZVVr72cZQKVeKVGegWL_KmCg_/view?usp=sharing)
 
 **Received Notification Example**:  
 <br>
-<img src="https://i.ibb.co/5LF5s5K/Whats-App-Image-2024-11-29-at-19-29-45-eb9c564a.jpg" alt="Ignisat" width="140" height="300">
+<img src="https://drive.google.com/file/d/11dREuOUg8h06vpTsAm158XNPjWVcvh0N/view?usp=sharing" alt="Ignisat" width="140" height="300">
 
 
 ---
